@@ -4,8 +4,8 @@ define("THEME_MODULE1",	"首頁");
 
 define("TF_USER_ID",	"請輸入帳號");
 define("TF_USER_PASS",	"請輸入密碼");
-define("TF_USER_S_ID",	"帳號：");
-define("TF_USER_S_PASS",	"密碼：");
+define("TF_USER_S_ID",	"帳號");
+define("TF_USER_S_PASS",	"密碼");
 define("TF_USER_ENTER","登入");
 define("TF_USER_EXIT","登出");
 define("TF_USER_ADMIN","管理");

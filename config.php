@@ -7,7 +7,10 @@ $theme_change=1;
 $theme_kind='bootstrap3';
 
 //引入哪些選單？ all(含 my_menu,admin,user),my_menu,admin,user
-$menu_var_kind='all';
+$menu_var_kind='my_menu';
+
+//額外顏色設定 如： bootstrap3/themes/light/Cerulean
+$theme_color='';
 
 /*
   tabs-1 版面基礎設定
