@@ -79,6 +79,8 @@ $config_tabs[3]=1;
 $config_enable['slide_width']=array('enable'=>1, 'min'=>'' , 'max'=>'' , 'require'=>0 , 'default'=>'12');
 //佈景圖片高度[slideshow_responsive.html]，值：數值，單位一律為 px
 $config_enable['slide_height']=array('enable'=>1, 'min'=>'' , 'max'=>'' , 'require'=>0 , 'default'=>'0');
+//是否可上傳滑動圖片[slideshow_responsive.html]
+$config_enable['use_slide']=array('enable'=>1, 'min'=>'' , 'max'=>'' , 'require'=>0 , 'default'=>'1');
 
 
 /*
