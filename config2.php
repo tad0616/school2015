@@ -12,7 +12,7 @@ $theme_config[$i]['name']="use_container";
 $theme_config[$i]['text']=TF_USE_CONTAINER;
 $theme_config[$i]['desc']=TF_USE_CONTAINER_DESC;
 $theme_config[$i]['type']="yesno";
-$theme_config[$i]['default']="0";
+$theme_config[$i]['default']="1";
 
 //外框是否套用陰影
 $i++;
@@ -98,7 +98,7 @@ $theme_config[$i]['name']="footer_height";
 $theme_config[$i]['text']=TF_FOOTER_HEIGHT;
 $theme_config[$i]['desc']=TF_FOOTER_HEIGHT_DESC;
 $theme_config[$i]['type']="text";
-$theme_config[$i]['default']="200px";
+$theme_config[$i]['default']="180px";
 
 //頁尾底色
 $i++;
@@ -106,7 +106,7 @@ $theme_config[$i]['name']="footer_bgcolor";
 $theme_config[$i]['text']=TF_FOOTER_BGCOLOR;
 $theme_config[$i]['desc']=TF_FOOTER_BGCOLOR_DESC;
 $theme_config[$i]['type']="color";
-$theme_config[$i]['default']="#717959";
+$theme_config[$i]['default']="#0090d6";
 
 //頁尾文字內距
 $i++;
