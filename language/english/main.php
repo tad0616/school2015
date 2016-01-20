@@ -1,7 +1,6 @@
 <?php
 define('THEME_MODULE0', 'Main menu');
 define('THEME_MODULE1', 'Home');
-
 define('TF_USER_ID', 'Username');
 define('TF_USER_PASS', 'Password');
 define('TF_USER_S_ID', 'Username:');
@@ -18,18 +17,15 @@ define('TF_USER_NOTICE', 'Notifications');
 define('TF_USER_NEWMSG', 'New message: ');
 define('TF_USER_MSG', 'Messages');
 define('TF_USER_WELCOME', 'Hello ');
-
 define('TF_SEARCH', 'Search');
 define('TF_OK', 'Submit');
 define('TF_USER_REGIST', 'Create account?');
 define('TF_USER_FORGET_PASS', 'Password lost?');
-
 define('TF_BLOCK_CONFIG', 'Setup this block');
 define('TF_SYSTEM_CONFIG', 'Preferences');
 define('TF_SYSTEM_MODADM', 'Online install');
 define('TF_MODULE_CONFIG', 'Administration');
 define('TF_DL_TAD_THEMES', 'Please install \"Tad Themes\" module.');
-
 /**Custom settings of Languages **/
 define('TF_FOOTER_IMG', 'Footer background image');
 define('TF_FOOTER_IMG_DESC', 'Please upload a background image.');
@@ -58,13 +54,11 @@ define('TF_USE_CONTAINER', 'user class="container"?');
 define('TF_USE_CONTAINER_DESC', 'Only for Bootstrap mode. If "No", it will use class="container-fluid".');
 define('TF_FOOTER_BG_CSS', 'Footer background CSS setup.');
 define('TF_FOOTER_BG_CSS_DESC', 'Footer background CSS setup');
-
 define('TF_LEFT_SPARATE', 'Left separate line');
 define('TF_LEFT_SPARATE_DESC', 'Display separate line between left block zone and main content?');
 define('TF_RIGHT_SPARATE', 'Right separate line');
 define('TF_RIGHT_SPARATE_DESC', 'Display separate line between main content and right block zone?');
 define('TF_SPARATE_STYLE', 'Separate line style');
 define('TF_SPARATE_STYLE_DESC', 'Setup separate line style.');
-
 define('TF_MY_CODE', 'Add CSS or JavaScript to footer');
 define('TF_MY_CODE_DESC', 'Add CSS or JavaScript to footer');

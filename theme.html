@@ -61,15 +61,14 @@
     <{/if}>
 
       <div class="<{$row}>" id="xoops_theme_content" style="width:auto;">
+        <!-- logo -->
+        <{if $logo_img and $logo_position=="page"}>
+          <div style="background-color:<{$logo_bgcolor}>">
+            <{includeq file="$xoops_rootpath/modules/tadtools/$tpl_folder/logo.html"}>
+          </div>
+        <{/if}>
+
         <div class="<{$span}>12">
-          <!-- logo -->
-          <{if $logo_img and $logo_position=="page"}>
-            <div style="background-color:<{$logo_bgcolor}>">
-              <{includeq file="$xoops_rootpath/modules/tadtools/$tpl_folder/logo.html"}>
-            </div>
-          <{/if}>
-
-
           <div id="xoops_theme_content_display" class="row<{if $use_shadow=='1' and $shadow_include_logo=='0'}> xoops_content_shadow<{/if}>" style="<{$content_zone}>">
             <div class="<{$span}>12">
               <!-- 頁首 -->
