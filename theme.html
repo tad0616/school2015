@@ -10,7 +10,7 @@
 
     <{includeq file="$xoops_rootpath/modules/tadtools/themes_common/meta.tpl"}>
     <!-- 網站的標題及標語 -->
-    <title><{$xoops_sitename}> - <{$xoops_pagetitle}></title>
+    <title><{$xoops_sitename}><{if $xoops_pagetitle}> - <{$xoops_pagetitle}><{/if}></title>
 
     <{includeq file="$xoops_rootpath/modules/tadtools/themes3_tpl/link_css.tpl"}>
 
