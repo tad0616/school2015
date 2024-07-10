@@ -3,10 +3,10 @@
   <head>
     <!--目前$_SESSION['bootstrap']="<{$smarty.session.bootstrap}>"; -->
     <!--將目前的資料夾名稱，設定為樣板標籤變數 theme_name-->
-    <{assign var=theme_name value=$xoTheme->folderName}>
+    <{assign var="theme_name" value=$xoTheme->folderName}>
 
     <!--載入由使用者設定的各項佈景變數-->
-    <{include file="$xoops_rootpath/modules/tadtools/themes_common/get_var.tpl"}>
+    <{* <{include file="$xoops_rootpath/modules/tadtools/themes_common/get_var.tpl"}> *}>
 
     <{include file="$xoops_rootpath/modules/tadtools/themes_common/meta.tpl"}>
     <!-- 網站的標題及標語 -->
@@ -93,7 +93,7 @@
                 </style>
                 <div id="xoops_theme_footer" <{if $theme_kind|substr:0:9=="bootstrap"}>class="row"<{/if}> style="clear:both;margin-bottom:<{$margin_bottom}>px;height:<{$footer_height}>;background:<{$footer_bgcolor}> <{if $footer_img}>url(<{$footer_img}>)<{/if}>;<{$foot_bg_css}>">
                   <div class="col-sm-12" style="padding:<{$footer_padding}>;color:<{$footer_color}>;<{$footer_style}>">
-                    <{if $xoops_isadmin}>
+                    <{if $xoops_isadmin|default:false}>
                       <a href="<{$xoops_url}>/modules/system/admin.php?fct=preferences&op=show&confcat_id=3" class="block_config"></a>
                     <{/if}>
                     <{$xoops_footer}>
